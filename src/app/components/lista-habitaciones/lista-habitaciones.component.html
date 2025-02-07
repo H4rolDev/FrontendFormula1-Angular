@@ -1,0 +1,63 @@
+<div class="card">
+    <div class="card-body">
+      <form >
+      <h5 class="card-title">LISTADO DE MASCOTAS</h5>
+      <hr />
+      <div class="row">
+        <div class="col-xl-3">
+          <div class="mb-3">
+            <label class="form-label">Nro. habitacion</label>
+            <input type="number" class="form-control" placeholder="Ingrese nro. microchip" >
+          </div>
+        </div>
+        <div class="col text-right">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#modalCliente" (click)="AbrirModal()">
+            <i class="fa-solid fas fa-plus"></i>
+            Agregar habitacion
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-3">
+          <div class="mb-3">
+            <label class="form-label">Tipo habitacion</label>
+            <input type="text" class="form-control" placeholder="Ingrese nombre de propietario" >
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="mb-3">
+            <label class="form-label">Nro. piso</label>
+            <input type="number" class="form-control" placeholder="Ingrese nro. microchip" >
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3">
+        <button type="button" class="btn btn-success margin-rigth-8px">
+          <i class="fa-solid fas fa-search"></i>
+          Buscar
+        </button>
+        <button type="button" class="btn btn-danger">
+          <i class="fa-solid fas fa-eraser"></i>
+          Limpiar</button>
+      </div>
+
+      <hr />
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Nro. habitacion</th>
+              <th scope="col">Tipo habitacion</th>
+              <th scope="col">Piso</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Acciones</th>
+            </tr>
+          </thead>
+
+        </table>
+      </div>
+    </form>
+    </div>
+  </div>
