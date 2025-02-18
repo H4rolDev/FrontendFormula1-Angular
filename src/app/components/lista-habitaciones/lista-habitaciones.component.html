@@ -1,13 +1,13 @@
 <div class="card">
     <div class="card-body">
       <form >
-      <h5 class="card-title">LISTADO DE MASCOTAS</h5>
+      <h5 class="card-title">LISTADO DE HABITACIONES</h5>
       <hr />
       <div class="row">
         <div class="col-xl-3">
           <div class="mb-3">
             <label class="form-label">Nro. habitacion</label>
-            <input type="number" class="form-control" placeholder="Ingrese nro. microchip" >
+            <input type="number" class="form-control" placeholder="Ingrese nro. habitacion" >
           </div>
         </div>
         <div class="col text-right">
@@ -22,26 +22,25 @@
         <div class="col-xl-3">
           <div class="mb-3">
             <label class="form-label">Tipo habitacion</label>
-            <input type="text" class="form-control" placeholder="Ingrese nombre de propietario" >
+            <input type="text" class="form-control" placeholder="Ingrese tipo habitacion" >
           </div>
         </div>
         <div class="col-xl-3">
           <div class="mb-3">
             <label class="form-label">Nro. piso</label>
-            <input type="number" class="form-control" placeholder="Ingrese nro. microchip" >
+            <input type="number" class="form-control" placeholder="Ingrese nro. piso" >
           </div>
         </div>
+        <div class="col-xl-3" style="margin-top: 29px">
+          <button type="button" class="btn btn-success" style="margin-right: 5px;">
+            <i class="fa-solid fas fa-search"></i>
+            Buscar
+          </button>
+          <button type="button" class="btn btn-danger">
+            <i class="fa-solid fas fa-eraser"></i>
+            Limpiar</button>
+        </div>
       </div>
-      <div class="col-xl-3">
-        <button type="button" class="btn btn-success margin-rigth-8px">
-          <i class="fa-solid fas fa-search"></i>
-          Buscar
-        </button>
-        <button type="button" class="btn btn-danger">
-          <i class="fa-solid fas fa-eraser"></i>
-          Limpiar</button>
-      </div>
-
       <hr />
       <div class="table-responsive">
         <table class="table table-striped">
@@ -55,7 +54,6 @@
               <th scope="col">Acciones</th>
             </tr>
           </thead>
-
         </table>
       </div>
     </form>

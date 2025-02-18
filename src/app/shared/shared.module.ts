@@ -3,8 +3,9 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { SiderbarComponent } from './siderbar/siderbar.component';
 import { RouterModule } from '@angular/router';
-
-
+import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DxAccordionModule, DxCheckBoxModule, DxSliderModule, DxTagBoxModule, DxTemplateModule } from 'devextreme-angular';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,12 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    DxAccordionModule,
+    DxCheckBoxModule,
+    DxSliderModule,
+    DxTagBoxModule,
+    DxTemplateModule,
   ]
 })
 export class SharedModule { }
