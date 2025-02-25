@@ -24,6 +24,7 @@ import { DxAccordionModule, DxCheckBoxModule, DxSliderModule, DxTagBoxModule, Dx
     DxSliderModule,
     DxTagBoxModule,
     DxTemplateModule,
+    BrowserAnimationsModule
   ]
 })
 export class SharedModule { }

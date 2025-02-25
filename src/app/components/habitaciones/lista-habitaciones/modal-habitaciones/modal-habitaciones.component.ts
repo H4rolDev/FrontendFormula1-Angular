@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { BsModalRef } from 'ngx-bootstrap/modal';
-import { HabitacionDTO } from '../../../dtos/habitacion-dto';
+import { HabitacionDTO } from '../../../../dtos/habitacion-dto';
 
 @Component({
   selector: 'app-modal-habitaciones',
