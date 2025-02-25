@@ -18,6 +18,7 @@ import { PermisosPersonalComponent } from './empleados/permisos-personal/permiso
 import { ListaProductosComponent } from './productos/lista-productos/lista-productos.component';
 import { CategoriasProductosComponent } from './productos/categorias-productos/categorias-productos.component';
 import { ListaClientesComponent } from './reservas/lista-clientes/lista-clientes.component';
+import { DxAutocompleteModule, DxButtonModule, DxChartModule, DxCheckBoxModule, DxDataGridModule, DxDateBoxModule, DxNumberBoxModule, DxRadioGroupModule, DxSchedulerModule, DxSelectBoxModule, DxTagBoxModule, DxTemplateModule } from 'devextreme-angular';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { ListaClientesComponent } from './reservas/lista-clientes/lista-clientes
     ListaClientesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    DxDateBoxModule
   ]
 })
 export class ComponentsModule { }
