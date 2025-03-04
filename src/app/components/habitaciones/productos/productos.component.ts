@@ -8,7 +8,7 @@ import { ModalProductoHabitacionComponent } from './modal-producto-habitacion/mo
   styleUrl: './productos.component.css'
 })
 export class ProductosComponent {
-constructor(
+  constructor(
     private BsModalRef:BsModalRef,
     private modalService: BsModalService,
   ){

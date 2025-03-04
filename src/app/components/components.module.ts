@@ -19,6 +19,10 @@ import { ListaProductosComponent } from './productos/lista-productos/lista-produ
 import { CategoriasProductosComponent } from './productos/categorias-productos/categorias-productos.component';
 import { ListaClientesComponent } from './reservas/lista-clientes/lista-clientes.component';
 import { DxAutocompleteModule, DxButtonModule, DxChartModule, DxCheckBoxModule, DxDataGridModule, DxDateBoxModule, DxNumberBoxModule, DxRadioGroupModule, DxSchedulerModule, DxSelectBoxModule, DxTagBoxModule, DxTemplateModule } from 'devextreme-angular';
+import { ModalListaProductosComponent } from './productos/lista-productos/modal-lista-productos/modal-lista-productos.component';
+import { ModalCategoriaProductosComponent } from './productos/categorias-productos/modal-categoria-productos/modal-categoria-productos.component';
+import { ModalListaPersonalComponent } from './empleados/lista-personal/modal-lista-personal/modal-lista-personal.component';
+import { ModalCargoPersonalComponent } from './empleados/cargos-personal/modal-cargo-personal/modal-cargo-personal.component';
 
 
 @NgModule({
@@ -40,7 +44,11 @@ import { DxAutocompleteModule, DxButtonModule, DxChartModule, DxCheckBoxModule, 
     PermisosPersonalComponent,
     ListaProductosComponent,
     CategoriasProductosComponent,
-    ListaClientesComponent
+    ListaClientesComponent,
+    ModalListaProductosComponent,
+    ModalCategoriaProductosComponent,
+    ModalListaPersonalComponent,
+    ModalCargoPersonalComponent
   ],
   imports: [
     CommonModule,
